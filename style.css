@@ -26,6 +26,11 @@ body {
 main {
     font-size: x-large;
 }
+
+.extra {
+    font-size: x-large;
+}
+
 #marginitesto {
     margin-left: 200px;
     margin-right: 200px;
@@ -36,9 +41,13 @@ header {
     font-size: xx-large;
 }
 
+h1 {
+    margin-bottom: 0;
+}
 #footeredits {
     font-size: large;
-    color: grey
+    color: grey;
+    margin-bottom: 10px;
 }
 
 .copyrightsfoto {
@@ -50,7 +59,7 @@ header {
     color: rgba(78,160,255,255);
 }
 
-#evidenziatoregiallo {
+.evidenziatoregiallo {
     background-color: yellow;
 }
 
@@ -58,11 +67,43 @@ header {
 th {
     color: white;
     background-color:rgba(78,160,255,255) ;
+    text-align: left;
+    width: 350px;
 }
 
+.tabellablu {
+    background-color: rgb(130, 234, 255);
+}
 
 /* Ridimensionamento tabella */
 td {
-    width: 250px;
+    width: 350px;
     height: 30px;
+    text-align: left;
+}
+
+/* Informazioni extra sulla pagina */
+.potrebbero {
+    color: gray;
+    font-size: xx-large;
+}
+
+.more1 {
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 300px;
+    color: white;
+    font-size: xx-large;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.more2 {
+    background-image: url(../img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-size: xx-large;
+    padding: 5px;
+    margin-top: 5px;
 }

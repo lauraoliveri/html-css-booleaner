@@ -1,0 +1,68 @@
+/* Modifiche logo della pagina e sfondo del logo */
+
+.logopagina {
+    width: 300px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.sfondologo {
+    background-color: rgba(78,160,255,255);
+    background-image: url(../img/pattern.png);
+    background-position: center;
+    background-repeat:repeat;
+    background-size: 600px;
+    height: 180px;
+
+}
+
+/* Modifica margini del sito e font testo */
+body {
+    margin: 0;
+}
+
+main {
+    font-size: x-large;
+}
+#marginitesto {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* Ridimensionamento titolo, footer e copyrights */
+header {
+    font-size: xx-large;
+}
+
+#footeredits {
+    font-size: large;
+    color: grey
+}
+
+.copyrightsfoto {
+    font-size: smaller;
+}
+
+/* Evidenziatore blu e giallo */
+#scrittacolorata {
+    color: rgba(78,160,255,255);
+}
+
+#evidenziatoregiallo {
+    background-color: yellow;
+}
+
+/* Colori tabella */
+th {
+    color: white;
+    background-color:rgba(78,160,255,255) ;
+}
+
+
+/* Ridimensionamento tabella */
+td {
+    width: 250px;
+    height: 30px;
+}

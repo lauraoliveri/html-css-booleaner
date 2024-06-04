@@ -82,6 +82,11 @@ td {
     text-align: left;
 }
 
+/* Rimozione spazio tabella */
+
+table {
+    border-collapse: collapse;
+}
 /* Informazioni extra sulla pagina */
 .potrebbero {
     color: gray;
